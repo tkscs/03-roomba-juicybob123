@@ -16,7 +16,7 @@ window = room.draw_room(level = 2)
 x = 1
 ###
 # Start your code here
-for loop in range(100):
+for loop in range(20):
     forward(560)
     right(270 * x)
     forward(40)

@@ -20,12 +20,17 @@ circle_room_radius = 2
 # Draw the Level 5 version of the room
 window = room.draw_room(level = 8,
                         n_alcoves = n_alcoves,
-                        radius = circle_room_radius)
+                        radius = circle_room_radius, radius = 10)
 
 ###
 # Start your code here
  
- 
+forward(40)
+left(90)
+forward(40)
+backward(80)    
+forward(40)
+right(90)
  
 # End your code here
 ###

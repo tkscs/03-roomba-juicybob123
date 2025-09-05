@@ -26,7 +26,6 @@ for loop in range(4):
         x = 1
 forward(160)
 right(270 * x)
-forward(40)
 right(270 * x)
  
 # End your code here
